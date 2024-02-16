@@ -1,7 +1,6 @@
-use std::{fmt::format, path::PathBuf};
+use std::path::PathBuf;
 
-use image::{imageops, ColorType, DynamicImage, GenericImage, Rgba};
-use rand::Rng;
+use image::{DynamicImage, GenericImage};
 
 use clap::Parser;
 
