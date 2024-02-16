@@ -1,3 +1,5 @@
+cargo-features = ["different-binary-name"]
+
 [package]
 name = "flipbook-converter-rs"
 version = "0.1.0"
