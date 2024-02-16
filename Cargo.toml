@@ -9,3 +9,7 @@ edition = "2021"
 clap = { version = "4.5.0", features = ["derive"] }
 tokio = { version = "1.36.0", features = ["full"] }
 image = "0.24.8"
+
+[[bin]]
+name = "flipbook-converter-rs"
+filename = "flipbook-converter"

@@ -52,7 +52,7 @@ jobs:
     name: Build (${{ matrix.target }})
     runs-on: ${{ matrix.os }}
     env:
-      BIN: pixelfix
+      BIN: flipbook-converter
 
     steps:
       - uses: actions/checkout@v3
