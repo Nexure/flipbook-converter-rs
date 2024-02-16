@@ -1,5 +1,5 @@
 [package]
-name = "effect-splice-rs"
+name = "flipbook-converter-rs"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +9,3 @@ edition = "2021"
 clap = { version = "4.5.0", features = ["derive"] }
 tokio = { version = "1.36.0", features = ["full"] }
 image = "0.24.8"
-rand = "0.8.5"
